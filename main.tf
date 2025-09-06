@@ -1,5 +1,5 @@
 provider "aws" {
-  region = "us-east-1" # Change to your region
+  region = "us-east-1" 
 }
 
 resource "aws_instance" "my_ec2" {
@@ -9,5 +9,6 @@ resource "aws_instance" "my_ec2" {
 
   tags = {
     Name = "Prod"
+
   }
 }
